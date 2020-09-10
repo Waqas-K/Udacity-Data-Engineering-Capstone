@@ -292,4 +292,4 @@ An increase in data should not be an issue for Redshift since it is an MPP and a
 A pipeline is already configured using Airflow to handle scheduling. This task will require to simply update the schedule within the dag.
 
 ### Scenario 3: If the database needed to be accessed by 100+ people
-As mentioned before this could be addressed by simply increasing the number of nodes by utilizing Redshift auto-scaling capabilities.
+The more people accessing the database the more CPU resources you need to get a fast experience. By using a distributed database you can improve your replications and partitioning to get faster query results for each user.
