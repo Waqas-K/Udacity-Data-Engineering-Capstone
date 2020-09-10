@@ -260,10 +260,10 @@ Build the data pipelines to create the data model.
 ### Creating Data Warehouse and Running a Single Instance of ETL
 The following scripts are utilized to create the data warehouse perform a single instance of ETL
 
-# Run Create Tables Script
+#### Run Create Tables Script
 %run -i create_tables.py
 
-# Run Etl.py script
+#### Run Etl.py script
 %run -i etl.py
 
 ### Automating and Scheduling ETL through Airflow
